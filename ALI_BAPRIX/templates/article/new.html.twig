@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}La caverne d'Ali Baprix !{% endblock %}
+
+{% block body %}
+    <h1>Ajout d'article</h1>
+    <div class="article_form">
+    {{ include('article/_form.html.twig') }}
+    </div>
+    <a href="{{ path('app_article_index') }}">back to list</a>
+{% endblock %}

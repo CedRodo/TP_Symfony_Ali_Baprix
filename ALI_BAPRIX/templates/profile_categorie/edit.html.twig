@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}La caverne d'Ali Baprix !{% endblock %}
+
+{% block body %}
+    <h1>Modification de catégorie</h1>
+
+    {{ include('profile_categorie/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_profile_categorie_index') }}">back to list</a>
+
+    {{ include('profile_categorie/_delete_form.html.twig') }}
+{% endblock %}

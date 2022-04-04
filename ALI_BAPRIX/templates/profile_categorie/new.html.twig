@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}La caverne d'Ali Baprix !{% endblock %}
+
+{% block body %}
+    <h1>Ajout de catégorie</h1>
+    <div class="categorie_form">
+
+    {{ include('profile_categorie/_form.html.twig') }}
+    </div>
+
+    <a href="{{ path('app_profile_categorie_index') }}">back to list</a>
+{% endblock %}

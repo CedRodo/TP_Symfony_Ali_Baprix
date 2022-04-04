@@ -1,0 +1,252 @@
+body {
+    background-color: #4F3F68;
+}
+
+p {
+    color: rgb(216, 224, 231);
+}
+
+nav {
+    padding: 5px 0px;
+    background-color: black;
+}
+
+nav a {
+    padding: 5px;
+    color: rgb(216, 224, 231);
+}
+
+nav a:hover {
+    color: rgba(131, 148, 247, 0.856);
+}
+
+.connexion {
+    text-align: end;
+}
+
+.connexion a {
+    color: rgb(216, 224, 231);
+}
+
+.rubriques {
+    padding: 10px;
+}
+
+h1 {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border: 5px solid aliceblue;
+    border-style: double;
+    border-radius: 20px;
+    background-color: orange;
+    color: rgb(68, 16, 57);
+}
+
+
+#nom_site {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#nom_site p:nth-child(1){
+    font-size: 30px;
+}
+
+#nom_site p:nth-child(2){
+    font-size: 45px;
+}
+
+#nom_site p:nth-child(3){
+    font-size: 80px;
+}
+
+#newsletter label {
+    display:inline-block;
+    width: 8vw;
+}
+
+.newsletter_form form {
+    display: inline-block;
+    background-color: beige;
+    padding: 20px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.newsletter_form {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter_form input {
+    margin-bottom: 10px;
+}
+
+#newsletter_envoyer {
+    margin-top: 20px;
+}
+
+#newsletter_email {
+    margin-left: 10px;
+}
+
+.article_form form {
+    display: inline-block;
+    background-color: beige;
+    padding: 20px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+#article label {
+    display:inline-block;
+    width: 8vw;
+}
+
+.article_form {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.article_form input {
+    margin-bottom: 10px;
+}
+
+#article_designation {
+    margin-left: 10px;
+}
+
+#article_description {
+    margin-left: 10px;
+}
+
+#article_prix {
+    margin-left: 10px;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.register_form form {
+    display: inline-block;
+    background-color: beige;
+    padding: 20px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.register_form label {
+    display:inline-block;
+    width: 8vw;
+}
+
+.register_form {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.register_form input {
+    margin-bottom: 10px;
+}
+
+.espace_connexion form {
+    display: inline-block;
+    background-color: beige;
+    padding: 20px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.espace_connexion label {
+    display:inline-block;
+    width: 8vw;
+}
+
+.espace_connexion {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.espace_connexion input {
+    margin-bottom: 10px;
+}
+
+.categorie_form form {
+    display: inline-block;
+    background-color: beige;
+    padding: 20px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.categorie_form label {
+    display:inline-block;
+    width: 8vw;
+}
+
+.categorie_form {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.categorie_form input {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.table th {
+    height: 40px;
+    background-color: rgb(91, 91, 158);
+    color: rgb(216, 224, 231);
+}
+
+.table td {
+    height: 60px;
+    background-color: rgb(211, 202, 190);
+}
+
+.table td:nth-child(1) {
+    color: rgb(16, 109, 16);
+    text-align: center;
+}
+
+.table td:nth-child(2) {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.table td:nth-child(3) {
+    padding-left: 10px;
+}
+
+.table td:nth-child(4) {
+    color: rgb(223, 19, 19);
+    text-align: center;
+}
+
+.table td:nth-child(5) {
+    text-align: center;
+}
+
+.table td:nth-child(5) a {
+    padding: 10px;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.774);
+    border: 0px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}La caverne d'Ali Baprix !{% endblock %}</title>
+        <link rel="stylesheet" href="./assets/css/styles.css" >
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="connexion">
+            <img style="position: relative; top: 2px;" src="./assets/icons_logos/inscription.png" alt="s'inscrire"> <a style="text-decoration: none;" href="{{ path('app_register') }}">Inscription</a> | <img style="position: relative; top: 2px;" src="./assets/icons_logos//login.png" alt="se connecter"> <a style="text-decoration: none;" href="{{ path('app_login') }}">Connexion</a> | <img style="position: relative; top: 2px;" src="./assets/icons_logos/logout.png" alt="se déconnecter"> <a style="text-decoration: none;" href="{{ path('app_logout') }}">Déconnexion</a>
+        </div>
+        <nav style="font-size: 22px">
+            <span style="background-color: orange; padding: 12px;">MENU</span>
+            <span class="rubriques">
+            <a style="text-decoration: none;" href="{{ path('app_accueil') }}">Accueil</a> | <a style="text-decoration: none;" href="{{ path('app_newsletter') }}">Newsletter</a> | <a style="text-decoration: none;" href="{{ path('app_article_index') }}">Articles</a> | <a style="text-decoration: none;" href="{{ path('app_article_new') }}">Ajout d'article</a> | <a style="text-decoration: none;" href="{{ path('app_profile_categorie_index') }}">Catégories</a> | <a style="text-decoration: none;" href="{{ path('app_profile_categorie_new') }}">Ajout de catégorie</a></span>
+        </nav>
+        {% block body %}{% endblock %}
+    </body>
+</html>
